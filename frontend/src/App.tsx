@@ -23,8 +23,9 @@ export default function App() {
     // Fetch data from your local Node backend
     const fetchData = async () => {
       try {
-        const swimmersRes = await axios.get('http://localhost:5000/api/swimmers');
-        const performanceRes = await axios.get('http://localhost:5000/api/performance');
+        const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+        const swimmersRes = await axios.get(`${API_BASE}/api/swimmers`);
+        const performanceRes = await axios.get(`${API_BASE}/api/performance`);
         setSwimmers(swimmersRes.data);
         setPerformance(performanceRes.data);
       } catch (error) {
