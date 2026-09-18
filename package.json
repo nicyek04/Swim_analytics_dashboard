@@ -1,25 +1,7 @@
 {
-  "name": "swim_dashboard",
-  "version": "1.0.0",
-  "description": "\"# Swim_analytics_dashboard\"",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nicyek04/Swim_analytics_dashboard.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/nicyek04/Swim_analytics_dashboard/issues"
-  },
-  "homepage": "https://github.com/nicyek04/Swim_analytics_dashboard#readme",
-  "dependencies": {
-    "cors": "^2.8.6",
-    "express": "^5.2.1"
+  "devDependencies": {
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^4.3.3"
   }
 }
